@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<title>
+        Documentation
+    </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <h1>
+        Installation and Usage Guide
+    </h1>
+
+    <h2>Installation</h2>
+    <ol>
+        <li> move to assignment directory <code>cd intellify_assignment</code>.</li>
+
+        <li>create virtual environment <code>virtualenv intellify</code>.</li>
+
+        <li>install all required modules <code>pip install -r requirements.txt</code>.</li>
+    </ol>
+
+
+    <h2>Usage</h2>
+    <ol>
+        <li>move to project directory <code>cd Intellify_assignment</code>.</li>
+
+        <li>command for make migrations <code>python manage.py makemigrations</code>.</li>
+
+        <li>command for migrate <code>python manage.py migrate</code>.</li>
+
+        <li>now run the server <code>python manage.py runserver</code>.</li>
+
+        <li>open the url <a href="http://localhost:8000/api/register" target="_blank">http://localhost:8000/api/register</a> in browser .</li>
+        <li>to create new user fill all the fields in the browser or pass this field in body params using postman or anyother similar application.
+        if everything is correct. it will return success message.</li>
+        <li>to login with the resgisterd users. open the url <a href="http://localhost:8000/api/login" target="_blank">http://localhost:8000/api/login?user_name=<USER-NAME>&password=<PASSWORD></a>.
+if user_name and password is correct. it will return success message with user_bio_data.</li>
+    </ol>
+    
+
+</body>
+</html>
