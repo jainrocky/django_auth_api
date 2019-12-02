@@ -18,9 +18,11 @@
 
 * now run the server `python manage.py runserver`.
 
-* open the url `http://localhost:8000/api/register` in browser .
+* open the url `http://localhost:8000` for documentation.
 
-* to create new user fill all the fields in the browser or pass this field in body params using postman or anyother similar application.
+* for register new user open the url `http://localhost:8000/api/register` in browser .
+
+* to register new user fill all the fields in the browser or pass this field in body params using postman or anyother similar application.
 if everything is correct. it will return success message.
 
 * to login with the resgisterd users. open the url `http://localhost:8000/api/login?user_name=<USER-NAME>&password=<PASSWORD>`.
